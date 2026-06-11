@@ -1,0 +1,29 @@
+{
+  "name": "lead-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive lead management system for tracking and managing sales leads",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build complete\""
+  },
+  "keywords": ["lead", "management", "sales", "CRM"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
